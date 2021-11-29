@@ -1,0 +1,100 @@
+/* CSS Reset */
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 27, 27);
+}
+
+
+/* Header */
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: inline-block;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFEFE8;
+}
+
+header h1 {
+    float: left;
+    color: #2f413f;
+}
+
+/* Main */
+nav {
+    float: right;
+}
+
+nav ul {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Section Kontak */
+
+.kontak {
+    min-height: 80vh;
+    background: #FFEFE8;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+}
+
+.kontak .wrapper {
+    align-items: flex-start;
+}
+
+.kontak .section-title {
+    margin-bottom: 30px;
+}
+
+.kontak-box {
+    padding: 20px 50px;
+    background: #000000;
+    width: 340px;
+    margin: 0 auto;
+    text-align: right;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #102238;
+    font-size: 12px;
+    color: #fff;
+}
